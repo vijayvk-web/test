@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <sql.h>
+#include <sqlext.h>
+
+int main() {
+    SQLHENV hEnv = NULL;
+    SQLHDBC hDbc = NULL;
+    SQLRETURN ret;
+
+    // Allocate environment handle
